@@ -17,8 +17,8 @@ import (
 const defaultMsg = "Доступные команды help и currency"
 
 const help = `Бот проверяет курс доллар к рублю. 
-Если она ниже чем вчера, тогда вернет рандомное gif из https://giphy.com/search/rich. 
-Иначе вернет от сюда https://giphy.com/search/broke.
+Если курс по отношению к рублю за сегодня стал выше вчерашнего, то отдает рандомную отсюда https://giphy.com/search/rich. 
+Иначе отдает отсюда https://giphy.com/search/broke.
 Чтобы получить гиф введите currency`
 
 func main() {
