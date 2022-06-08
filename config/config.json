@@ -1,0 +1,4 @@
+{
+    "TelegramBotToken": "Your telegram token",
+    "host":"api.telegram.org"
+}
